@@ -1,0 +1,163 @@
+/* Product card list container */
+.cartItemsList{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin: 0 8%;
+}
+
+/* Product Card */
+.itemCardContainer{
+    margin-top: 6%;
+    margin-right: 3%;
+    width: 20%;
+    border-radius: 0.8rem;
+    box-shadow: 5px 5px 5px 3px #5f76a8;
+    flex-wrap: wrap;
+}
+
+/* Product Image Styling */
+.itemImageContainer{
+    width: 100%;
+    height: 20rem;
+}
+
+.itemImageContainer img{
+    height: inherit;
+    width: inherit;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+/* Product details styling */
+.itemDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.itemDetailsContainer h1{
+    width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:#0137ac;
+    text-align: center;
+}
+
+/* Add to cart button styling */
+.itemDetailsContainer h2{
+    font-size: 1.6rem;
+    color:#0137ac;
+}
+
+.itemDetailsContainer button{
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    border:none;
+    background-color:red;
+    padding: 2%;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2%;
+    box-shadow: 3px 3px 3px #beaecd;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.itemDetailsContainer button:hover{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    color: black;
+}
+
+
+/* Item quantity container */
+.itemQuantityContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemQuantityContainer img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.itemQuantityContainer h2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.defaultCart{
+    font-size: 2.5rem;
+    color: #0137ac;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Total price displayer */
+.totalPriceContainer{
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 0.8rem;
+    color: white;
+    background-color: #1047c0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.totalPriceContainer button{
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    border:none;
+    background-color:#032b80;
+    padding: 2%;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2%;
+    box-shadow: 3px 3px 3px #beaecd;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.totalPriceContainer button:hover{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    color: black;
+}
+/* Responsive design */
+@media screen and (max-width:900px){
+    .cartItemsList {
+        margin: 0;
+        justify-content: center;
+    }
+    .itemCardContainer {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 2%;
+    }
+
+    .itemDetailsContainer h1{
+        font-size: 0.8rem;
+    }
+
+    .itemDetailsContainer h2{
+        font-size: 0.8rem;
+    }
+
+    .itemDetailsContainer button{
+        font-size: 0.8rem;
+    }
+    .itemImageContainer{
+        height: 15rem;
+    }
+}

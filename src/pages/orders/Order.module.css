@@ -1,0 +1,61 @@
+/* Primary Heading */
+.hPrimary{
+    text-align: center;
+    color: #0137ac;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+
+/* Secondary Heading */
+.hSecondary{
+    text-align: center;
+    font-size: 2rem;
+    color: #5081e9;
+    margin-top: 2%;
+}
+
+.hSecondary span{
+    color: #02194b;
+}
+/* Table styling */
+table{
+    margin: auto;
+    margin-top: 3%;
+    background-color:  #afb8cd;
+    width: 80%;
+    table-layout: fixed;
+    border: 1px solid white;
+}
+
+th{
+    font-size: 1.5rem;
+    width: 10%;
+    border-bottom: 2px solid white;
+    text-align: center;
+    font-weight: bolder;
+    border-right: 1px solid white;
+    padding: 1%;
+}
+
+tr{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+td{
+    width: 10%;
+    border-right: 1px solid white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding:1%;
+    border-bottom: 1px solid white;
+}
+
+.defaultOrder{
+    font-size: 2.5rem;
+    color: #0137ac;
+    text-align: center;
+    margin-top: 5%;
+}

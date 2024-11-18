@@ -1,0 +1,86 @@
+/* Navigation Bar styling */
+nav{
+    padding: 1% 6%;
+    box-shadow: 3px 3px 3px 3px #5f76a8;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Busy buy logo styling */
+.leftNav{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.leftNav a{
+    text-decoration: none;
+    color:  #5079d3;
+}
+/* Navigation options styling */
+.rightNav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.rightNav li{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1%;
+    cursor: pointer;
+    color:#0c4bd4;
+}
+
+.rightNav img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.rightNav span{
+    margin-left: 7%;
+}
+
+
+.rightNav a{
+    text-decoration: none;
+    padding: 2%;
+}
+
+/* Styling for when the link is active */
+.active{
+    border:1px solid rgb(131, 131, 131);
+    box-shadow: inset 1px 1px 1px 1px rgb(146, 146, 146);
+    border-radius: 0.6rem;
+    background-color:#f7f7f7;
+}
+
+/* Responsive Design */
+@media screen and (max-width:800px) {
+    .leftNav{
+        font-size: 0.8rem;
+    }
+
+    .rightNav li{
+        font-size: 0.6rem;
+    }
+
+    .rightNav{
+        width: 60%;
+    }
+    .rightNav img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+}

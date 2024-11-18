@@ -1,0 +1,59 @@
+/* Parent Container Styling */
+.parentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+/* Search Bar styling */
+.inputContainer{
+    width: 40%;
+}
+
+.searchBar{
+    font-size: 1.3rem;
+    width: 100%;
+    border-radius: 0.6rem;
+    border:1px solid #0137ac;
+    padding: 4%;
+    height: 2rem;
+}
+
+.searchBar::placeholder{
+    color: rgb(108, 107, 105);
+}
+
+.searchBar:focus{
+    color: #0137ac;
+    outline: none;
+}
+
+.filterBtn{
+    font-size: 1.2rem;
+    padding: 1%;
+    height: 3rem;
+    background-color: #0c4bd4;
+    font-weight: bold;
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #beaecd;
+    border: none;
+}
+
+.filterBtn:hover{
+    transition: 0.2s ease-in-out;
+    color: black;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 1);
+    transform: scale(0.9);
+}
+/* Responsive design */
+@media screen and (max-width:900px){
+    .inputContainer{
+        width: 80%;
+    }
+
+    .searchBar{
+        font-size: 0.8rem;
+    }
+}

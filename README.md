@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Busy-Buy
+Devloped an e-commerce application to showcase my skills in frontend development and UI/UX design using React.js.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Hosted Link:
+### 
 
-In the project directory, you can run:
+## Features:
+* Home Page: Displays a catalog of available products with details like name, price, and an Add to Cart button.
+* Search: Integrated a search bar for easy product lookup.
+* Filter: Implemented filtering options to allow users to refine products based on their preferences (e.g., price range, categories).
+* User Authentication: SignUp->Allows new users to create account and SignIn->Enables existing users to login in their account.
+* Dual theme Mode: Integrated light and dark themes to allow users to switch modes for personalized user experience.
 
-### `npm start`
+## Tools Used:
+* React
+* Javascript
+* CSS
+* React Hooks
+* Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure:
+```bash
+busy-buy/
+├── public/
+│   ├── index.html
+│   ├── 404.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── authentication/
+│   │   │    └── Auth.jsx
+│   │   ├── nav/
+│   │   │    ├── Navbar.jsx
+│   │   │    └── Navbar.module.css
+│   │   ├── product/
+│   │   │    ├── ProductCard.jsx
+│   │   │    ├── FilterProductCard.jsx
+│   │   │    └── Product.module.css
+│   │   └── theme/
+│   │        └── ThemeContext.jsx
+│   ├── error/
+│   │   └── ErrorPage.jsx
+│   ├── pages/
+│   │   ├── cart/
+│   │   │    ├── Cart.jsx
+│   │   │    └── Cart.module.css
+│   │   ├── home/
+│   │   │    ├── Home.jsx
+│   │   │    └── Home.module.css
+│   │   ├── loginOptions/
+│   │   │    ├── SignUp.jsx
+│   │   │    ├── SignIn.jsx
+│   │   │    └── SignIn.module.css
+│   │   └── orders/
+│   │        ├── Order.jsx
+│   │        └── Order.module.css
+│   ├── App.js
+│   ├── firebaseInit.js
+│   ├── index.css
+│   ├── index.js
+│   └── productContext.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
+└── ...
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation On Local Machine:
+Follow these steps to get the project up and running on your local system:
 
-### `npm test`
+1. Clone the repository to your local machine:
+```bash
+  https://github.com/SinhaKhushiTheRockc2/busy-buy-react
+```
+2. Navigate to the root directory of the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install all the dependencies:
+```bash
+    npm install
+```
+4. Start the development server
+```bash 
+    npm run start
+```
+5. Open your web browser and go to http://localhost:3000 to see the application in action.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
