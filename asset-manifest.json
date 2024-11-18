@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/busy-buy-react/static/css/main.c0cc0ce7.css",
+    "main.js": "/busy-buy-react/static/js/main.b3052778.js",
+    "index.html": "/busy-buy-react/index.html",
+    "main.c0cc0ce7.css.map": "/busy-buy-react/static/css/main.c0cc0ce7.css.map",
+    "main.b3052778.js.map": "/busy-buy-react/static/js/main.b3052778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0cc0ce7.css",
+    "static/js/main.b3052778.js"
+  ]
+}
